@@ -4,9 +4,10 @@
     let steps = [
         {name: 'High School Degree', icon: 'fa-solid fa-graduation-cap'},
         {name: 'Bachelors Degree', icon: 'fa-solid fa-graduation-cap'},
-        {name: 'Vak 1', icon: 'fa-solid fa-dna'},
-        {name: 'Vak 2', icon: 'fa-solid fa-flask'},
-        {name: 'Vak 3', icon: 'fa-solid fa-computer'},
+        {name: 'DNA-Technology', icon: 'fa-solid fa-dna'},
+        {name: 'Pharmacology & Toxicology', icon: 'fa-solid fa-flask'},
+        {name: 'Microbiology', icon: 'fa-solid fa-bacteria'},
+        {name: 'Data Science & Bioinformatics', icon: 'fa-solid fa-chart-line'},
     ];
 
     let benefits = [
@@ -55,12 +56,17 @@
         <div class="grid grid-cols-1 gap-12 lg:gap-10">
             <Step step={steps[0]}>
                 <p>
-                    <strong class="text-blue-400">Description</strong> #1
+                    <strong class="text-blue-400">School:</strong> KSD Diest<br/>
+                    <strong class="text-blue-400">Degree:</strong> Math & Sciences<br/>
+                    <strong class="text-blue-400">Year of graduation:</strong> 2020
                 </p>
             </Step>
             <Step step={steps[1]}>
                 <p>
-                    <strong class="text-blue-400">Description</strong> #2
+                    <strong class="text-blue-400">School:</strong> UCLL (Association KULeuven)<br/>
+                    <strong class="text-blue-400">Degree:</strong> Bachelor degree in Pharmaceutical and Biological
+                    Laboratory Techniques<br/>
+                    <strong class="text-blue-400">Year of graduation:</strong> 2025 (expected)
                 </p>
             </Step>
         </div>
@@ -69,18 +75,39 @@
                Relevant Courses
             </h3>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-10">
             <Step step={steps[2]}>
                 <p>
-                    <strong class="text-blue-400">Description</strong> #1
+                    Personally, this was one of my <b class="text-blue-400"> favorite</b> courses in college.
+                    I really enjoyed working in the lab here since you can really see the theory play into practice.
+                    I've gathered important and interesting knowledge over the course of these laboratory sessions such
+                    as working with a <b class="text-blue-400">qPCR</b> machine, using <b class="text-blue-400">Oxford
+                    Nanopore Sequencing</b> techniques, <b class="text-blue-400">Gel Electrophoresis</b>,
+                    <b class="text-blue-400">CRISPR</b> and much more. I can't wait to get more hands on practice with
+                    these amazing technologies.
                 </p>
             </Step>
             <Step step={steps[3]}>
                 <p>
-                    <strong class="text-blue-400">Description</strong> #2
+                    I found this the <b class="text-blue-400">most interesting</b> of all the courses that
+                    I took. Learning how drugs affect the human body in good and bad ways was extremely interesting.
+                    During this course I gathered extensive knowledge on the <b class="text-blue-400">
+                    biochemical pathways</b> drugs undergo in the body to give the expected effects and
+                    side-effects, as well as the ins and outs of the extensive research that goes on during the
+                    <b class="text-blue-400"> drug development phases</b> and how important they are. I
+                    hope to gather a lot more knowledge about these subjects during my career.
                 </p>
             </Step>
             <Step step={steps[4]}>
+                <p>
+                    This was by far the largest course I took. I learned a lot about the different categories of
+                    <b class="text-blue-400">micro-organisms</b>, how they respond to the environment and how they
+                    interact with other organisms like animals or plants. I learned how to work with micro-organisms
+                    in a <b class="text-blue-400">controlled and sterile</b> laboratory environment, how to culture
+                    them and how to perform <b class="text-blue-400">various biochemical tests</b>.
+                </p>
+            </Step>
+            <Step step={steps[5]}>
                 <p>
                     <strong class="text-blue-400">Description</strong> #3
                 </p>
