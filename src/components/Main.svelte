@@ -127,7 +127,7 @@
         </div>
     </section>
     <section id="about"
-             class="py-20 pt-18 lg:pt-22 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
+             class="py-20 pt-18 lg:pt-20 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
         <div
                 class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3
                 before:h-1.5 before:bg-blue-400 after:absolute after:bottom-0 after:right-0 after:w-2/3
