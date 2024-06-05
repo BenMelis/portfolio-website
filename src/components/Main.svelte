@@ -2,6 +2,8 @@
     import Step from "./Step.svelte";
 
     let steps = [
+        {name: 'High School Degree', icon: 'fa-solid fa-graduation-cap'},
+        {name: 'Bachelors Degree', icon: 'fa-solid fa-graduation-cap'},
         {name: 'Vak 1', icon: 'fa-solid fa-dna'},
         {name: 'Vak 2', icon: 'fa-solid fa-flask'},
         {name: 'Vak 3', icon: 'fa-solid fa-computer'},
@@ -46,14 +48,11 @@
     </section>
     <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
         <div class="flex flex-col gap-2 text-center">
-            <h6 class="text-lg sm:text-xl md:text-2xl">
-                A few of the relevant courses I took.
-            </h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-               ## Something might come here (WIP)##
+               Education
             </h3>
         </div>
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+        <div class="grid grid-cols-1 gap-12 lg:gap-10">
             <Step step={steps[0]}>
                 <p>
                     <strong class="text-blue-400">Description</strong> #1
@@ -64,7 +63,24 @@
                     <strong class="text-blue-400">Description</strong> #2
                 </p>
             </Step>
+        </div>
+        <div class="flex flex-col gap-2 text-center">
+            <h3 class="font-semibold text-2xl sm:text-3xl md:text-4xl">
+               Relevant Courses
+            </h3>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[2]}>
+                <p>
+                    <strong class="text-blue-400">Description</strong> #1
+                </p>
+            </Step>
+            <Step step={steps[3]}>
+                <p>
+                    <strong class="text-blue-400">Description</strong> #2
+                </p>
+            </Step>
+            <Step step={steps[4]}>
                 <p>
                     <strong class="text-blue-400">Description</strong> #3
                 </p>
