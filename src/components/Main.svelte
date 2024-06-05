@@ -18,10 +18,6 @@
 
 </script>
 
-<scipt>
-
-</scipt>
-
 <main class="flex flex-col flex-1 p-4">
     <section id="introPage" class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14">
         <div class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10">
@@ -43,17 +39,17 @@
         </div>
         <div class="relative shadow-2xl grid place-items-center">
             <img src={"images/profile.png"}
-                 alt="Profile Image"
+                 alt="Profile"
                  class="object-cover z-[2] max-h-[70vh]"/>
         </div>
     </section>
-    <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
+    <section id="education" class="py-20 lg:py-32 flex flex-col gap-24">
         <div class="flex flex-col gap-2 text-center">
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
                Education
             </h3>
         </div>
-        <div class="grid grid-cols-1 gap-12 lg:gap-10">
+        <div class="grid grid-cols-1 gap-12 lg:gap-10 text-md sm:text-lg md:text-xl">
             <Step step={steps[0]}>
                 <p>
                     <strong class="text-blue-400">School:</strong> KSD Diest<br/>
@@ -75,7 +71,7 @@
                Relevant Courses
             </h3>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-10 lg:text-xl">
             <Step step={steps[2]}>
                 <p>
                     Personally, this was one of my <b class="text-blue-400"> favorite</b> courses in college.
@@ -109,7 +105,13 @@
             </Step>
             <Step step={steps[5]}>
                 <p>
-                    <strong class="text-blue-400">Description</strong> #3
+                    This course was not very popular among students, most found it boring and unuseful. I was one of
+                    those people at the start of college but along the way I got very interested in
+                    <b class="text-blue-400">data analysis and statistics</b> and learned how important this all is in
+                    the medical field. During these courses I gathered a lot of knowledge about tools like
+                    <b class="text-blue-400">BLAST</b>, <b class="text-blue-400"> Clustal Omega</b> and
+                    <b class="text-blue-400"> Primer3D</b> for dealing with sequenced data. Using databases like NCBI,
+                    GenBank and UniProt was also one of the core subjects we tackled during this course.
                 </p>
             </Step>
         </div>
