@@ -11,9 +11,14 @@
     ];
 
     let benefits = [
-        {name: 'benefit #1', description: '## long description ##'},
-        {name: 'benefit #2', description: '## long description ##'},
-        {name: 'benefit #3', description: '## long description ##'},
+        {name: 'Eager to learn new things',
+            description: '## long description ##'},
+        {name: 'A team player',
+            description: '## long description ##'},
+        {name: 'Very good in the lab',
+            description: '## long description ##'},
+        {name: 'A self thought programmer',
+            description: '## long description ##'},
     ]
 
 </script>
@@ -29,7 +34,7 @@
                 My <span class="poppins text-blue-400">interests</span> are DNA-Technology (PCR, NGS, CRISPR),
                 Toxicology & Pharmacology, Bioinformatics and much more.
             </p>
-            <a href="#socialmedia"
+            <a href="#linkedin"
                class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden
                px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer">
                 <div class="absolute top-0 right-full w-full h-full bg-blue-400 opacity-20 group-hover:translate-x-full
@@ -42,11 +47,16 @@
                  alt="Profile"
                  class="object-cover z-[2] max-h-[70vh]"/>
         </div>
+        <div class="flex flex-col gap-2 text-center w-[100vw]">
+            <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+                Languages
+            </h3>
+        </div>
     </section>
     <section id="education" class="py-20 lg:py-32 flex flex-col gap-24">
         <div class="flex flex-col gap-2 text-center">
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-               Education
+                Education
             </h3>
         </div>
         <div class="grid grid-cols-1 gap-12 lg:gap-10 text-md sm:text-lg md:text-xl">
@@ -116,7 +126,8 @@
             </Step>
         </div>
     </section>
-    <section id="about" class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
+    <section id="about"
+             class="py-20 pt-18 lg:pt-22 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
         <div
                 class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3
                 before:h-1.5 before:bg-blue-400 after:absolute after:bottom-0 after:right-0 after:w-2/3
@@ -126,7 +137,7 @@
                 A bit <span class="poppins text-blue-400">about</span> me.
             </h3>
         </div>
-        <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">I am . . .</p>
+        <p class="mx-auto poppins font-semibold text-xl sm:text-2xl md:text-3xl">I am . . .</p>
         <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
             {#each benefits as benefit, index}
                 <div class="flex gap-6 sm:gap-8">
