@@ -34,20 +34,13 @@
                 My <span class="poppins text-blue-400">interests</span> are DNA-Technology (PCR, NGS, CRISPR),
                 Toxicology & Pharmacology, Bioinformatics and much more.
             </p>
-            <a href="#linkedin"
-               class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden
-               px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer">
-                <div class="absolute top-0 right-full w-full h-full bg-blue-400 opacity-20 group-hover:translate-x-full
-                z-0 duration-200"/>
-                <h4 class="relative z-[9]">Get in touch &rarr;</h4>
-            </a>
         </div>
         <div class="relative shadow-2xl grid place-items-center">
             <img src={"images/profile.png"}
                  alt="Profile"
                  class="object-cover z-[2] max-h-[70vh]"/>
         </div>
-        <div class="flex flex-col gap-2 text-center w-[100vw]">
+        <div class="flex flex-col gap-2 text-center sm:col-span-2 pt-20">
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
                 Languages
             </h3>
