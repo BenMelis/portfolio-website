@@ -14,12 +14,16 @@
         }
     }
 
+    function goTop() {
+        document.body.scrollIntoView()
+    }
+
 </script>
 
 <header class={"sticky z-[10] top-0 duration-200 px-6 flex items-center justify-between border border-solid" + (
     y > 0 ? ' py-4 bg-slate-950 border-blue-600': ' py-6 bg-transparent border-transparent')}>
     <h1 class="font-medium">
-        <b class="font-bold poppins">Ben</b> Melis
+        <button on:click={goTop}><b class="font-bold poppins">Ben</b> Melis</button>
     </h1>
     <div
       class="flex sm:hidden gap-4 ml-auto px-1 m-1 border border-white rounded hover:cursor-pointer hover:text-blue-400

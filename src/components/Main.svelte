@@ -44,6 +44,13 @@
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
                 Languages
             </h3>
+            <div class="flex flex-col items-center pt-10 sm:pt-14 md:pt-18 lg:pt-24">
+                <p class="text-2xl md:text-3xl lg:text-4xl text-blue-400">Dutch
+                    <span class="text-base sm:text-lg md:text-xl">(native)</span></p>
+                <div class="mt-2 h-2 w-[12rem] sm:w-[16rem] md:w-[20rem] bg-gray-500 rounded-full"/>
+                <p class=" mt-12 text-2xl md:text-3xl lg:text-4xl text-blue-400">English</p>
+                <div class="mt-2 h-2 w-[12rem] sm:w-[16rem] md:w-[20rem] bg-gray-500 rounded-full"/>
+            </div>
         </div>
     </section>
     <section id="education" class="py-20 lg:py-32 flex flex-col gap-24">
